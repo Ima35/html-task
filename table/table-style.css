@@ -1,0 +1,24 @@
+@charset "utf-8";
+body{
+    background-image: url("img/pide.avif");
+}
+img{
+    width: 200px;
+}
+table,th,td{
+    border: solid 2px #000;
+    border-collapse: collapse;
+}
+caption{
+    color: #f3524a;
+    font-size: 18px;
+    font-family:"游明朝" ;
+
+}
+thead{
+    background-color: rgba(199, 19, 10, 0.5);
+}
+th,td{
+    color: rgb(193, 174, 173);
+}
+
