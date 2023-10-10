@@ -1,0 +1,31 @@
+@charset "utf-8";
+.bg-orange{
+    border-radius: 10px;
+    background-color: rgb(250, 189, 74);
+}
+span{
+    border: 2px dotted rgb(255, 189, 22);
+}
+.bg-blue{
+    color: #2252d7;
+}
+body{
+    background:rgb(255, 217, 190, 0.5);
+}
+p{
+    font-size: 18px;
+    padding-top: 20px;
+    font-family:"HGP創英角ﾎﾟｯﾌﾟ体" ;
+       padding-left: 40px;
+       padding-bottom: 10px;
+       background-color: rgb(254, 226, 178);
+}
+h1{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+ol{
+    padding-top: 20px;
+    background-color: rgb(254, 225, 178);
+}
+
