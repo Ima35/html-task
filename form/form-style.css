@@ -1,0 +1,28 @@
+@charset "utf-8";
+input[type]{
+    margin-left: 0.5rem;
+}
+fieldset{
+    margin: 20px;
+}
+a{
+    font-size: 0.7rem;
+}
+.list .col{
+    display: inline-block;
+    width: 120px;
+    line-height: 20px
+}
+.list{
+    padding: 10px;
+}
+legend{
+    font-size: 20px;
+    color: rgb(73, 73, 135);
+}
+input[type]{
+    margin-bottom: 8px;
+}
+h1{
+    color: #3d3c7b;
+}
