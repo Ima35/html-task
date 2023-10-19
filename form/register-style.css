@@ -1,0 +1,26 @@
+@charset "utf-8";
+span{
+    font-size: 10px;
+}
+.required {
+    background-color: #e73b3b;
+    border-radius: 5px;
+    color: #f7f7f7;
+}
+th{
+    background-color: #88ec71df;
+    text-align: left;
+    vertical-align: top;
+}
+td{
+    background-color: #e0f6db;
+}
+td,th{
+    padding: 10px;
+}
+button{
+    width: 200px;
+}
+div{
+    margin: 10px;
+}
