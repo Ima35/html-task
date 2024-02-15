@@ -5,7 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -52,6 +58,59 @@
         <section>
             <div class="movie">
                 <h1>MOVIE</h1>
+                <!-- メインのスライダー -->
+                <div class="swiper slider gallery-top">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/IMG_7576.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_6657 (1).jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7577.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7578.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7579.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7580.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7581.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7582.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7583.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7587.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7588.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7589.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7590.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7592.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7593.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7595.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7596.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7597.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7598.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7599.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7600.jpg"></div>
+                    </div>
+
+                </div>
+                <!-- サムネイルのスライダー -->
+                <div class="swiper thumbnail gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/IMG_7576.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_6657 (1).jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7577.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7578.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7579.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7580.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7581.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7582.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7583.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7587.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7588.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7589.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7590.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7592.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7593.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7595.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7596.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7597.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7598.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7599.jpg"></div>
+                        <div class="swiper-slide"><img src="img/IMG_7600.jpg"></div>
+                    </div>
+                </div>
                 <br><br>
                 <div class="iframe-group">
                     <div class="box">
@@ -159,10 +218,13 @@
             </div>
     </div>
     </section>
-    
+
     <footer>
         <small>(C)2024 Morijyobi-final assignment.</small>
     </footer>
-</body>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 他のスクリプトファイル読み込み -->
+    <script src="script.js"></script>
 
 </html>

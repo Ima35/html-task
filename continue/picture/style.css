@@ -2,6 +2,8 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Sawarabi Mincho', serif;
+    font-family: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
 }
 
 .container {
@@ -106,7 +108,7 @@ section {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: cover;
-    height: 299vh;
+    height: 400vh;
     width: 80%;
     margin: 0;
     position: relative;
@@ -137,3 +139,36 @@ section .movie .iframe-group{
     width: 450px;
 }
 
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .swiper-slide img {
+    width: 80%;
+  }
+  
+  /* サムネイルのスタイル */
+  .thumbnail .swiper-slide {
+    padding: 0;
+    margin: 0;
+    opacity: 0.5;
+  }
+  .swiper-slide{
+    width: 200px;
+  }
+  .gallery-thumbs .swiper-wrapper {
+    display: flex; /* Flexboxを使用して要素を横並びに */
+}
+.thumbnail .swiper-slide {
+    flex: 0 0 auto; /* サイズを固定 */
+}
+
+  .thumbnail img{
+    width: 100%;
+    display: block;
+  }
+  /* サムネイルのアクティブスタイル */
+  .thumbnail .swiper-slide-thumb-active {
+    opacity: 1;
+  }
